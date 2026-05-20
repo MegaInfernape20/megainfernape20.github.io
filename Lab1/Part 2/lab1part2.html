@@ -11,14 +11,29 @@ Part 2 of Lab 1, structuring a page with CSS
     <title>Birdwatching</title>
     <link
       href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700"
-      rel="stylesheet" />
+      rel="stylesheet" /> 
+      <link href="style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <h1>Birdwatching</h1>
-
-    Home Get started Photos Gear Forum
-
+    <header>
+    <h1>Birdwatching
+        <img
+          src="https://mdn.github.io/shared-assets/images/examples/learn/birds/dove.png"
+          alt="" />
+    </h1>
+    <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Get started</a></li>
+          <li><a href="#">Photos</a></li>
+          <li><a href="#">Gear</a></li>
+          <li><a href="#">Forum</a></li>
+        </ul>
+      </nav>
+</header>
+<main>
+    <article>
     <h2>Welcome</h2>
 
     <p>
@@ -33,11 +48,11 @@ Part 2 of Lab 1, structuring a page with CSS
       So don't waste time! Get what you need, then turn off that computer and
       get out into the great outdoors!
     </p>
-
-    <h2>Favorite photos</h2>
-
-    <!-- Link images here. -->
-
+</article>
+    
+    
+</main>
+<footer>
     <p>
       This fake website example is CC0 — any part of this code may be reused
       in any way you wish. Original example written by Chris Mills, 2016.
@@ -47,3 +62,6 @@ Part 2 of Lab 1, structuring a page with CSS
       <a href="http://game-icons.net/lorc/originals/dove.html">Dove icon</a>
       by Lorc.
     </p>
+</footer>
+</body>
+</html>
