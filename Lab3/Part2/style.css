@@ -1,9 +1,18 @@
-/* General setup */
 .bree-serif-regular {
     font-family: "Bree Serif", serif;
     font-weight: 400;
     font-style: normal;
   }
+
+  html {
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  h1, h2 {
+    font-family: "Bree Serif", serif;
+  }
+/* General setup */
+
   
 * {
     box-sizing: border-box;
@@ -24,6 +33,9 @@
     gap: 40px;
     padding: 20px 0;
   }
+
+ 
+  
   
   /* header and footer */
   
@@ -37,4 +49,25 @@
   
   footer p {
     text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+  }
+
+  section h2 + p {
+    text-indent: 2rem;
+  }
+
+  p, li {
+    line-height: 1.6;
+    letter-spacing: 0.5px;
   }
