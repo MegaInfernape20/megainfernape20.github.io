@@ -1,5 +1,10 @@
 /* General setup */
-
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 * {
     box-sizing: border-box;
   }
