@@ -130,7 +130,25 @@ class Ball extends Shape {
         ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
         ctx.stroke();
       }
+    
+
+    collisionDetect() {
+      for (const ball of balls) {
+        if (ball.exists) {
+          const dx = this.x - ball.x;
+          const dy = this.y - ball.y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
+  
+          if (distance < this.size + ball.size) {
+            ball.exists = false;
+            count--;
+            para.textContent = 'Ball count: ' + count;
+          }
+        }
+      }
     }
+  }
+    
     function loop() {
         ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
         ctx.fillRect(0, 0, width, height);
