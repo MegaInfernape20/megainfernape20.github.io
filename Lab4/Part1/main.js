@@ -12,7 +12,7 @@ function randomValueFromArray(array) {
 // Raw text strings
 
 const characters = ["willy the Goblin", "Big Daddy", "Father Christmas"];
-const places = ["the soup kitchen", "Big Daddy", "The White House"];
+const places = ["the soup kitchen", "Disneyland", "the White House"];
 const events = [
     "spontaneously combusted",
     "melted into a puddle on the sidewalk",
