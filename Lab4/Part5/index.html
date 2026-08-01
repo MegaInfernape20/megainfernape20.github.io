@@ -28,8 +28,6 @@ A lab to demonstrate javascript
       src="https://mdn.github.io/shared-assets/images/examples/learn/woodland-strip.jpg"
       alt="" />
 
-    --
-
    <form>
       <div class="form-section">
         <h2>Facilities</h2>
@@ -81,8 +79,6 @@ A lab to demonstrate javascript
         </fieldset>
       </div>
 
-    --
-
     <div class="form-section">
       <h2>About your hosts</h2>
 
@@ -107,22 +103,36 @@ A lab to demonstrate javascript
       </div>
     </div>
 
-    Any other feedback?
+    <div class="form-section">
+      <h2>Any other feedback?</h2>
 
-    Give us your comments
+      <label for="comments">Give us your comments</label>
+      <br />
+      <textarea id="comments" name="comments"></textarea>
+    </div>
 
-    --
+    <div class="form-section">
+      <h2>Your details</h2>
 
-    Your details
+      <div class="separator">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+      </div>
 
-    Name
-    Email
-    Phone
+      <div class="separator">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+      </div>
 
-    --
+      <div class="separator">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" />
+      </div>
+    </div>
 
-    Submit
-
-    --
+    <div class="form-section">
+      <button>Submit</button>
+    </div>
+  </form>
   </body>
 </html>
